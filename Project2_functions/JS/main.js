@@ -8,3 +8,13 @@ function myFunction() {     // This is the second function for concatenating two
     sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+function myFunction1(p1, p2) {
+  return p1 * p2;
+}
+document.write(myFunction1(4, 3));
+
+
+
+
+
