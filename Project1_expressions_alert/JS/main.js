@@ -4,5 +4,6 @@ window.alert(x);
 document.write(x);
 document.write("He told that lady" + " Food is good."); // adding two strings together
 document.write(Mom);
+document.write(x+Son)
 
 document.write(11+1);
