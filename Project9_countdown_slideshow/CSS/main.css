@@ -18,9 +18,10 @@
 
 .timer {
 
+    
     color: #025b40;
     font-size: 25px;
-    padding: 8px 12px;
+    padding: 20px 20px;
     position: absolute;
     bottom: 8px;
     width: 100%;
