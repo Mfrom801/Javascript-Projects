@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Basic AJAX Demo</title>
 		<link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
         <div class="main">
@@ -18,8 +19,8 @@
             // prepare ajax request
         ajax.open('GET', 'content.html');
 
-        ajax.onreadystatechange - function()  {
-            if (ajax.readyState = 4)  {
+        ajax.onreadystatechange = function() {
+            if (ajax.readyState == 4)  {
                 document.getElementById('content').innerHTML = ajax.responseText;
             }
         }
